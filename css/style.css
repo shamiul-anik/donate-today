@@ -1,0 +1,201 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Global Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+	max-width: 72rem;
+	margin-inline: auto;
+}
+
+/*** Hide Arrows From Input Number ***/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/*** Common Design ***/
+/* Primary Button */
+.btn_primary {
+  background-color: #ff5959;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.75rem;
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* Primary Button Hover */
+.btn_primary:hover {
+  background-color: #ff4747;
+}
+
+/*** Banner Style ***/
+/* Banner Image */
+.banner_image {
+	background-image: url(../images/donation2.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Banner */
+.banner {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);;
+  color: #fff;
+}
+
+/* Banner Contents */
+.banner_contents {
+  text-align: center;
+}
+
+/* Banner Title */
+.banner_contents > .banner_title {
+  font-size: 4rem;
+  text-shadow: 2px 2px #000;
+}
+
+/* Banner Description */
+.banner_contents > .banner_description {
+  font-size: 1.2rem;
+  margin: 1.25rem 0 1.875rem;
+}
+
+/*** Donate Today ***/
+
+/* Donate Section */
+.donate_section {
+  text-align: center;
+  padding: 6.25rem 0;
+}
+
+/* Donate Title */
+.donate_section > .donate_title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Donate Description */
+.donate_section > .donate_description {
+  font-size: 1.2rem;
+  margin: 1.25rem 0 1.875rem;
+}
+
+/* Donate Amout Group */
+.donate_amount_group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Donate Amout */
+.donate_amount_group > .donate_amount {
+  background-color: #f9f9f9;
+  border: 2px solid #dbdbdb;
+  padding: 2.5rem 2rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+	transition: all 0.3s;
+}
+
+/* Active Donate Amout */
+.donate_amount_group > .donate_amount.active {
+  background-color: #ffeded;
+  border: 2px solid #ff5959;
+}
+
+/* Hover Donate Amout */
+.donate_amount_group > .donate_amount:hover {
+  background-color: #ffeded;
+  border: 2px solid #ff5959;
+}
+
+/* Custom Donate Amount */
+.custom_donate_amount > input {
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid lightgray;
+  padding: 0.75rem;
+  text-align: center;
+  margin: 3rem 0 2rem;
+  font-size: 1.5rem;
+  width: 45rem;
+}
+
+
+/*** Donate Plan ***/
+
+/* Donate Plan */
+.donate_plan {
+  text-align: center;
+  padding: 0 0 6.25rem;
+}
+
+/* Donate Title */
+.donate_plan > .donate_plan_title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Donate Description */
+.donate_plan > .donate_plan_description {
+  font-size: 1.2rem;
+  margin: 1.25rem 0 1.875rem;
+}
+
+/* Donate Plan Group */
+.donate_plan_group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Donate Plan */
+.donate_plan_group > .donate_plan {
+  padding: 3rem 1rem;
+}
+
+/* Donate Plan */
+.donate_plan_group > .donate_plan > .plan_title {
+  font-size: 1.5rem;
+	margin: 1rem 0;
+}
+
+/* Donate Plan 1 */
+.donate_plan_group > .plan_1 {
+    background-color: #EDF5F6;
+}
+
+/* Donate Plan 2 */
+.donate_plan_group > .plan_2 {
+    background-color: #FFEEEE;
+}
+
+/* Donate Plan 3 */
+.donate_plan_group > .plan_3 {
+    background-color: #FFF4D5;
+}
