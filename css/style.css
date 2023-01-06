@@ -1,5 +1,6 @@
 /* Import Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 /* Global Style */
 * {
@@ -198,4 +199,104 @@ input[type=number] {
 /* Donate Plan 3 */
 .donate_plan_group > .plan_3 {
     background-color: #FFF4D5;
+}
+
+
+/*** Donate Reason ***/
+.donate_reason {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 2rem;
+	margin-bottom: 6rem;
+}
+
+.donate_reason > .donate_reason_group {
+	max-width: 31rem;
+}
+
+.donate_reason > .donate_reason_image {
+	max-width: 28.5rem;
+	border-radius: 0.25rem;
+}
+
+.donate_reason_group > .reason_title {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.donate_reason_group > .reason_description {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+
+/*** Get Update ***/
+.get_update {
+  text-align: center;
+  padding: 0 0 6.25rem;
+	max-width: 50rem;
+	margin-inline: auto;
+}
+
+/* Get Update Title */
+.get_update > .get_update_title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Get Update Description */
+.get_update > .get_update_description {
+  font-size: 1.2rem;
+  margin: 1.25rem 0 1.875rem;
+}
+
+/* Get Update Group */
+.get_update > .get_update_group {
+  background-color: #FFF4D6;
+	padding: 5rem 3rem;
+	display: flex;
+	justify-content: center;
+}
+
+/* Get Update Input */
+.get_update_group > .get_update_input {
+  background-color: #D9D9D9;
+	padding: 1rem;
+	border: 0;
+	border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+	outline: none;
+	font-size: 1.2rem;
+	min-width: 19.5rem;
+}
+
+/* Get Update Button */
+.get_update_group > .get_update_button  {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+	min-width: 11rem;
+}
+
+
+/*** Footer Section ***/
+footer {
+	background-color: #0B0D17;
+	padding: 2rem 0;
+	text-align: center;
+}
+
+/* Footer Title */
+.footer > .footer_title {
+	color: #FF5959;
+	margin: 1rem 0;
+	font-size: 3rem;
+	font-family: 'Lobster', cursive;
+}
+
+/* Footer Message */
+.footer > .footer_message {
+	color: #fff;
+	margin: 1rem 0;
+	font-size: 1.5rem;
 }
