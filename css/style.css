@@ -54,7 +54,7 @@ input[type=number] {
 /*** Banner Style ***/
 /* Banner Image */
 .banner_image {
-	background-image: url(../images/donation2.jpg);
+	background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(../images/donation2.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
 }
@@ -65,7 +65,6 @@ input[type=number] {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);;
   color: #fff;
 }
 
